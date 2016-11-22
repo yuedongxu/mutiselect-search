@@ -1,0 +1,46 @@
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.search-table{
+	width:640px;
+	height:40px;
+}
+.search-table thead{
+	width:100px;
+}
+.search-table tbody{
+	width:500px;
+}
+.search-table tr th{
+	width: 100px;
+	height:40px;
+	line-height:40px;
+
+}
+.search-table tr{
+	width:500px;
+}
+.search-table tr td{
+	float:left;
+	width:80px;
+	margin-left:10px;
+	text-align:center;
+	height:40px;
+	line-height:45px;
+    cursor: pointer;
+}
+.search-table tr td.active{
+	background:#00b38a;
+	color:#fff;
+}
+.search-table tr td.choice{
+	background:#00b38a;
+	color:#fff;
+}
+.search-table tr td.delete{
+	background:#fff;
+	color:#111;
+}
